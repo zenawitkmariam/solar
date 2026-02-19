@@ -1,11 +1,9 @@
-pandas: For data manipulation and cleaning (Task 2).
+# Core data analysis
+pandas==2.2.1
 
-matplotlib & seaborn: For the EDA and correlation heatmaps (Task 2).
+# Plotting
+matplotlib==3.8.2
+seaborn==0.13.2
 
-pytest: To satisfy the folder structure requirement for tests/ and the CI workflow (Task 1).
-
-scipy: Necessary for the Z-score calculation and ANOVA tests mentioned in Task 2 and 3.
-
-scikit-learn: Useful for any advanced statistical scaling or future MLE tasks.
-
-streamlit: For the Bonus Task dashboard.
+# Testing
+pytest==8.1.1
